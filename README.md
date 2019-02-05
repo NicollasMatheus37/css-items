@@ -1,27 +1,35 @@
-# CssTricks
+# CSS-items
+Criação de 'framework' css para usos futuros.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+## Pré Requisitos
 
-## Development server
+### VS Code
+Instalar `Visual Studio (https://code.visualstudio.com/download)`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### git
+Instalar `Git (https://git-scm.com/downloads)`
 
-## Code scaffolding
+### npm E Node.js
+Instalar `NPM` e `Node.js (https://nodejs.org/en/)`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Angular Cli
+Instalar `Angular Cli (https://cli.angular.io/)`
+    `-npm install -g @angular/cli-`
 
-## Build
+## Clonagem do Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Abrir cmd ou git bash e navegar até a pasta de destino e colar o código abaixo:
 
-## Running unit tests
+`git clone https://github.com/NicollasMatheus37/dnd-character-create.git`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalação de Dependencias
 
-## Running end-to-end tests
+No cmd ou git bash: `npm install`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Rodando o Projeto
 
-## Further help
+No cmd ou git bash execute o comando `ng serve` sempre que for rodar o projeto e insira a URL `localhost:4200` no navegador.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#O que será esse projeto?
+
+Haverá uma pasta pra cada item (button, input, text-area, etc.) e cada um deles terá um código em TS para que seus atributos possam ser modificados sem a necessidade de inserí-los no html. Futuramente o código será transformado em um módulo npm e poderá ser adicionado a ourtos projetos com todos os seus itens ou separadamente.
