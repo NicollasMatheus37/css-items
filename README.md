@@ -30,6 +30,6 @@ No cmd ou git bash: `npm install`
 
 No cmd ou git bash execute o comando `ng serve` sempre que for rodar o projeto e insira a URL `localhost:4200` no navegador.
 
-#O que será esse projeto?
+# O que será esse projeto?
 
 Haverá uma pasta pra cada item (button, input, text-area, etc.) e cada um deles terá um código em TS para que seus atributos possam ser modificados sem a necessidade de inserí-los no html. Futuramente o código será transformado em um módulo npm e poderá ser adicionado a ourtos projetos com todos os seus itens ou separadamente.
