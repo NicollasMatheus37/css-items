@@ -1,4 +1,6 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation, Injector, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import { Router, NavigationStart } from '@angular/router';
 
 @Component({
   selector: 'home-screen-component',
@@ -6,6 +8,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./home-screen.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class HomeScreenComponent {
+export class HomeScreenComponent{
+
+	constructor() {
+	}
 
 }
