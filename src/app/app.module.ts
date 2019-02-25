@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CommonModule } from '@angular/common';
 import { FInputComponent } from './components/input/f-input';
 import { FNavbarComponent } from './components/navbar/f-navbar';
+import { FSelectComponent } from './components/f-select/f-select';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { FNavbarComponent } from './components/navbar/f-navbar';
   declarations: [
     AppComponent,
     FInputComponent,
-    FNavbarComponent
+    FNavbarComponent,
+    FSelectComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

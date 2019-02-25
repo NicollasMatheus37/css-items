@@ -13,7 +13,7 @@ export class FNavbarComponent implements OnInit {
 
 	title = 'App - CSS items';
 
-	public menuItems = ['home', 'f-input', 'f-navbar'];
+	public menuItems = ['home', 'f-input', 'f-select'];
     
 	_title: Title;
     _router: Router;

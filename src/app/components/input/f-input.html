@@ -1,1 +1,6 @@
-F-Input
+<ng-template>
+    <div class="form-group">
+        <label class="f-label">{{ label }}</label>
+        <input #element type="text" class="form-control" placeholder="{{ placeholder }}" disabled="{{ isDisabled }}" readonly="{{ isReadonly }}">
+    </div>    
+</ng-template>
