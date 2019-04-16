@@ -1,24 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule } from '@angular/material';
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-import { CommonModule } from '@angular/common';
-import { FInputComponent } from './components/input/f-input';
-import { FNavbarComponent } from './components/navbar/f-navbar';
-import { FSelectComponent } from './components/f-select/f-select';
+import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
+  declarations: [
+    AppComponent
+  ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,    
+    MatInputModule, 
+    MatButtonModule,
+    MatSelectModule,
+    MatIconModule,
     AppRoutingModule,
-    CommonModule
-  ],
-  declarations: [
-    AppComponent,
-    FInputComponent,
-    FNavbarComponent,
-    FSelectComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
